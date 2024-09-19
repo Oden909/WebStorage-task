@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="getStorage('localStorage')">Использовать LocalStorage</button>
+    <button onclick="getStorage('sessionStorage')">Использовать SessionStorage</button>
+    <button onclick="clearStorage()">Очистить хранилище</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Ключ</th>
+                <th>Значение</th>
+                <th>Удалить</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <form id="data-form">
+        <label>Ключ: <input type="text" id="key" required></label>
+        <label>Значение: <input type="text" id="value" required></label>
+        <button type="submit">Добавить</button>
+    </form>
+</body>
+</html>

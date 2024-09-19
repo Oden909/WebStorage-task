@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+table{
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td{
+    padding: 15px;
+    text-align: center;
+}   
+
+th{
+    background-color: rgb(76, 196, 76);
+    color: white;
+}
+
+tr:hover{
+    background-color: #f0f8ee;
+}
+
+.delete-btn{
+    color: #ff4d4d;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.delete-btn:hover{
+    color: #e60000;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(76, 196, 76);
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #59bd5e;
+}
+
+button:focus{
+    outline: none;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus{
+    border-color: rgb(76, 196, 76);
+    outline: none;
+}
+
+.center{
+    text-align: center;
+}
